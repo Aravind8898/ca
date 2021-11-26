@@ -171,7 +171,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS=[os.path.join(BASE_DIR,'static')]
 MEDIA_ROOT=os.path.join(BASE_DIR,'static/images')
 STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles')
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [' https://traveldestination.herokuapp.com','localhost','127.0.0.1']
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
