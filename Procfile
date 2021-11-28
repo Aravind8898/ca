@@ -1,2 +1,2 @@
-web: gunicorn travelapp.wsgi
+web: gunicorn Travelapp.wsgi
 
